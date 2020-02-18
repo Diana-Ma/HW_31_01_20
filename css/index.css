@@ -1,15 +1,5 @@
-div.body {
-    position: relative;
-    align-items: center;
-    justify-content: center
-    display: flex;}
-div.header_top {
-    margin: 100px auto;
-    background: gray;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) }
-    height: 10em;}
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, yellow, red, #424141);
+}
 
