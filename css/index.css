@@ -15,10 +15,18 @@ body {
   }
   h1{
       color: white;
+      justify-content: center;
+      display: flex;
+      margin-top: 55px;
+      margin-bottom: 55px;
   }
 
   h2{
       color: white;
+      margin-top: 0;
+      margin-bottom: 0;
+      display: flex;
+      justify-content: center; 
   }
   p{
       color: white;
@@ -76,5 +84,18 @@ body {
 }
 
 .pfs{
-    
+   
+}
+
+.portfolio{
+    background-image: linear-gradient(to top, rgb(143, 140, 140), #181717);
+    min-height: 222px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.portfolio__li{
+    display: flex;
+    justify-content: center;
 }
